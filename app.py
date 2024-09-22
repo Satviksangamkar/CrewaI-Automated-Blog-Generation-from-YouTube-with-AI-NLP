@@ -9,7 +9,7 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 os.environ["OPENAI_MODEL_NAME"] = "gpt-4-0125-preview"
 
 # Initialize YouTube Tool
-yt_tool = YoutubeChannelSearchTool(youtube_channel_handle='@krishnaik06')
+yt_tool = YoutubeChannelSearchTool(youtube_channel_handle=' ')
 
 # Step 1: Creating the Blog Researcher Agent
 blog_researcher = Agent(
